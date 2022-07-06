@@ -89,6 +89,24 @@ body {
     text-align: center;
     text-shadow: 2px 2px 2px #000000;
 }
+/* =======Slider Styles============ */
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+
+}
+/* =======Carousel owl theme  */
+.item {
+  padding: 10px;
+}
+.item h2 {
+  text-align: center;
+}
+.item p {
+  text-align: justify;
+}
 /* -------Jumbotron------------------ */
 .jumbotron {
     background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('../images/showcase2.jpg');
@@ -340,7 +358,7 @@ body {
   }
 
   /*--------------------------------------------------------------
-# Team
+# Partners
 --------------------------------------------------------------*/
 .team {
     padding: 60px 0;
@@ -408,6 +426,22 @@ body {
   .team .member:hover .social {
     opacity: 1;
     bottom: 15px;
+  }
+  .partners {
+    /* background-color: #f6f6f7; */
+    text-align: center;
+    padding: 5px 0;
+  }
+  .partners img {
+    width: 50px;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 5px 0;
+  }
+  .partners img:hover{
+    filter: none;
+    transform: scale(1.1);
   }
 
   /*--------------------------------------------------------------
