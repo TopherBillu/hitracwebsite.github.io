@@ -100,6 +100,39 @@ body {
   width: 100%;
   height: 100vh;
 }
+.owl2 .btn-home {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #3b8af2;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.owl2 .btn-home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #3b8af2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.2s;
+  z-index: -1;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.owl2 .btn-home:hover::before{
+  transform: scaleX(1);
+  color: #fff;
+}
+
 .slide {
   width: 100%;
   height: 100vh;
@@ -306,10 +339,12 @@ body {
     transition: all 0.5s;
     color: #fff;
     padding: 0;
+    /* font-family: sans-serif !important; */
   }
   #topbar .contact-info i {
     font-style: normal;
     color: #fff;
+    font-family: sans-serif;
   }
   #topbar .contact-info i a, #topbar .contact-info i span {
     padding-left: 5px;
