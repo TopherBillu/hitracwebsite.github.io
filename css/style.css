@@ -206,6 +206,22 @@ body {
   right: 1%;
 }
 
+/* ====Useful Links======= */
+.useful-links {
+  background-color: #E7E6E5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.useful-links a {
+  color: #3b8af2;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+.useful-links a:hover {
+  text-decoration: none;
+}
+
 /* -------Jumbotron------------------ */
 .jumbotron {
     background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url('../images/showcase2.jpg');
