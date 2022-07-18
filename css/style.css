@@ -208,18 +208,20 @@ body {
 
 /* ====Useful Links======= */
 .useful-links {
-  background-color: #E7E6E5;
+  background-color: #88CDEE;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .useful-links a {
-  color: #3b8af2;
+  color: #555;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .useful-links a:hover {
   text-decoration: none;
+  color: black;
 }
 
 /* -------Jumbotron------------------ */
@@ -259,7 +261,7 @@ body {
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #4e9ba3;
 }
 .text-heading {
     text-align: center;
@@ -277,6 +279,43 @@ body {
     width: 100px;
     
 } */
+/* ========The About section Styles============== */
+.about-link {
+  background-color: none;
+  outline: none;
+  border: 2px solid #88CDEE;
+  color: #555;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  /* z-index: -1; */
+ 
+}
+.about-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #88CDEE;
+  /* border-radius: 6px; */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.about-link:hover::before {
+  transform: scaleX(1);
+  text-decoration: none;
+}
+.about-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
 
 /* ===========Services Section========= */
 #services {
