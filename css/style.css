@@ -712,6 +712,15 @@ body {
       padding: 2px 0;
     }
   }
+  /* ======================About page Styles================== */
+  .jumbotron {
+    background-image: url("../images/Doma-Community.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+  }
 
 
   
