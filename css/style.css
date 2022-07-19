@@ -721,13 +721,45 @@ body {
     height: 300px;
     width: 100%;
   }
-  /* .para1 {
+  .para1 {
     font-family: Arial;
     font-size: 18px;
-    text-align: justify;
-    width: 500px;
-    margin: auto;
-  } */
+    /* text-align: justify; */
+  
+  }
+  .accordion .card {
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    background:#88CDEE;
+    color: #fff;
+  }
+  .accordion .card .card-header {
+    background: none;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius: 0;
+  }
+  .accordion .card-header h2 {
+    font-size: 1rem;
+  }
+  .accordion .card-header .btn2 {
+    color: #fff;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+  .accordion .card-header .btn:hover {
+    background:none;
+  }
+  .accordion .card-header i {
+    position:absolute;
+    top: 10px;
+    right: 1rem;
+  }
+  .accordion .card-body{
+
+  }
 
 
   
