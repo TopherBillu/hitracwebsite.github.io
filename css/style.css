@@ -6,6 +6,7 @@ body {
 *{
     margin: 0;
     padding: 0;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%)
 }
 .nav-header {
     display: flex;
@@ -762,12 +763,16 @@ body {
 
   /* ======Projects page styles */
   .projects .card {
-    border: none;
-    background-color: #f8f8f8 !important;
-    color: #fff;
+    border: 1px solid transparent;
+    background-color: #f7f7f7 !important;
+    /* color: #fff; */
     border-radius: 0;
     box-shadow: 0 !important;
     margin-top: 40px;
+    font-family: Arial;
+  }
+  .projects .card .card-body {
+    box-shadow: none;
   }
   .projects .card .card-text {
     color: #555;
