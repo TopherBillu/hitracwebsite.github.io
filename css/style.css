@@ -819,6 +819,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
   }
+  .profile-container a {
+    font-size: 18px;
+    color: #88CDEE;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    font-weight: bold;
+  }
+  .profile-container a:hover {
+    text-decoration: underline;
+    color: #88CDEE;
+  }
   
 
   
