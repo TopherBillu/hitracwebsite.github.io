@@ -727,12 +727,13 @@ body {
     /* text-align: justify; */
   
   }
+
   .accordion .card {
     border-radius: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    background:#88CDEE;
-    color: #fff;
+    /* border-left-width: 0;
+    border-right-width: 0; */
+    /* background:#88CDEE; */
+    /* color: #fff; */
   }
   .accordion .card .card-header {
     background: none;
@@ -744,7 +745,7 @@ body {
     font-size: 1rem;
   }
   .accordion .card-header .btn2 {
-    color: #fff;
+    /* color: #fff; */
     width: 100%;
     text-align: left;
     padding-left: 0;
@@ -756,8 +757,40 @@ body {
     position:absolute;
     top: 10px;
     right: 1rem;
+    cursor:pointer;
   }
 
+  /* ======Projects page styles */
+  .projects .card {
+    border: none;
+    background-color: #f8f8f8 !important;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: 0 !important;
+    margin-top: 40px;
+  }
+  .projects .card .card-text {
+    color: #555;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .projects .card .card-body a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #88CDEE;
+    padding: 10px;
+  }
+  .projects .card .card-title {
+    font-weight: bold;
+    color: #000000;
+    padding:10px;
+  }
+  .projects .txt {
+    font-family: Arial;
+    font-size: 20px; 
+  }
+  
 
   
   
