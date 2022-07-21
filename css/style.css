@@ -456,6 +456,10 @@ body {
     box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
     padding: 30px;
   }
+  /* .contact-us .php-email-form {
+      box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+      padding: 30px;
+  } */
   .contact .php-email-form .error-message {
     display: none;
     color: #fff;
@@ -857,6 +861,18 @@ body {
 .collaborations h3 {
   text-align: center;
   padding: 10px;
+}
+.btn-submit {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #88CDEE;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
   
   
