@@ -854,9 +854,9 @@ body {
   /* height: 15vw; */
   object-fit: contain;
 }
-.partners .img-fluid {
-  object-fit: contain;
+.collaborations h3 {
+  text-align: center;
+  padding: 10px;
 }
-  
   
   
