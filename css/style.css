@@ -751,10 +751,17 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    
   }
   .accordion .card .card-body {
     box-shadow: none;
     border-bottom: 0;
+  }
+  .accordion .card .card-body p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 26px;
+    font-family: sans-serif;
   }
   .accordion .card .card-header {
     background: none;
@@ -765,12 +772,19 @@ html{
   }
   .accordion .collapse {
     border: 0;
+    transition: 3s;
   }
-  .accordion .card-header h2 {
+  .accordion .card-header h2{
     font-size: 20px;
     font-weight: bolder;
     text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+    
   }
+  .accordion .card-header h2 a {
+    font-weight: bold;
+  }
+
   .accordion .card-header .btn2 {
     /* color: #fff; */
     width: 100%;
