@@ -3,10 +3,16 @@ body {
     padding: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+html{
+  font-family: sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
-    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%)
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -webkit-tap-highlight-color: transparent;
 }
 .nav-header {
     display: flex;
@@ -730,6 +736,7 @@ body {
     font-family: Arial;
     font-size: 18px;
     /* text-align: justify; */
+    line-height: 26px;
   
   }
 
@@ -737,17 +744,32 @@ body {
     border-radius: 0;
     /* border-left-width: 0;
     border-right-width: 0; */
-    /* background:#88CDEE; */
-    /* color: #fff; */
+    background:#88CDEE;
+    color: #fff;
+    border: 0;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+  }
+  .accordion .card .card-body {
+    box-shadow: none;
+    border-bottom: 0;
   }
   .accordion .card .card-header {
     background: none;
     padding-top: 7px;
     padding-bottom: 10px;
     border-radius: 0;
+    border: 0;
+  }
+  .accordion .collapse {
+    border: 0;
   }
   .accordion .card-header h2 {
-    font-size: 1rem;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
   }
   .accordion .card-header .btn2 {
     /* color: #fff; */
@@ -760,7 +782,7 @@ body {
   }
   .accordion .card-header i {
     position:absolute;
-    top: 10px;
+    top: 20px;
     right: 1rem;
     cursor:pointer;
   }
