@@ -157,6 +157,9 @@
                 </form>
               </div>
             </div>
+            <div class="row justify-content-center">
+              <h2 class="p-2 mt-5">Contact Details</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -259,13 +262,13 @@
       function sendEmail() {
         Email.send({
           Host: "smtp.gmail.com",
-          Username: "Nyasha Mangurenje",
-          Password: "password",
-          To: "nyashamangurenje16@gmail.com",
+          Username: "pisirayilucy080@gmail.com",
+          Password: "hitrac2021!",
+          To: "pisirayilucy080@gmail.com",
           From: document.getElementById("email").value,
           Subject: "You have new email from Hitrac website",
           Body: document.getElementById("message").value,
-        }).then((message) => alert(message));
+        }).then((message) => alert("Message Sent"));
       }
     </script>
   </body>
