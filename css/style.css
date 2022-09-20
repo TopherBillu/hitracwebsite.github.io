@@ -713,10 +713,13 @@ color: #ffffff;
     transition: all 0.4s ease-in-out;
     display: inline-block;
     padding: 5px;
+    object-fit: cover;
+    margin: auto;
   }
   .partners img:hover{
-    /* filter: none; */
+    filter: none;
     transform: scale(1.1);
+    cursor: pointer;
   }
 
   /*--------------------------------------------------------------
