@@ -100,7 +100,7 @@
               <a class="nav-link" href="team.html">Our Team</a>
             </li>
           </ul>
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="index.html"
             ><img src="images/Uz_logo.png" height="90" width="180"
           /></a>
         </div>
@@ -122,7 +122,8 @@
             <div class="row justify-content-center mt-5">
               <div class="col-lg-6">
                 <form
-                  onsubmit="sendEmail(); reset(); return false;"
+                  action="https://formsubmit.co/1f9be92093516101b3553926a8d229f0"
+                  method="post"
                   class="php-email-form"
                 >
                   <div class="form-group mb-4">
@@ -157,15 +158,21 @@
                       required
                     ></textarea>
                   </div>
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://https://topherbillu.github.io/hitracwebsite.github.io/confirmation.html"
+                  />
                   <div class="text-center">
                     <button type="submit" class="btn-submit">Submit</button>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
               <h2 class="p-2 mt-5">Contact Details</h2>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -223,7 +230,7 @@
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <!-- <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networts</h4>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
@@ -235,7 +242,7 @@
                 ></a>
                 <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -277,19 +284,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script>
-      function sendEmail() {
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "pisirayilucy080@gmail.com",
-          Password: "hitrac2021!",
-          To: "pisirayilucy080@gmail.com",
-          From: document.getElementById("email").value,
-          Subject: "You have new email from Hitrac website",
-          Body: document.getElementById("message").value,
-        }).then((message) => alert("Message Sent"));
-      }
-    </script>
   </body>
 </html>
